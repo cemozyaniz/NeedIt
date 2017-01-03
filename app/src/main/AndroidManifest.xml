@@ -22,15 +22,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<<<<<<< 22fe2728ca1572e14f2b7bf0548a8f86a2ad61bf
+
         <activity android:name=".Multeci"></activity>
-        <activity android:name=".Bagisci"></activity>
-=======
-        <activity android:name=".Multeci">
-        </activity>
-        <activity android:name=".Bagisci">
-        </activity>
->>>>>>> Bagisci Activity
+
     </application>
 
 </manifest>
