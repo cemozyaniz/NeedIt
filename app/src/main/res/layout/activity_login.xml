@@ -31,7 +31,7 @@
         android:padding="13dp"
         android:background="@drawable/shape"
         android:hint="@string/email"
-        android:id="@+id/girisEmail" />
+        android:id="@+id/EditEmail" />
 
 
     <EditText
@@ -42,8 +42,20 @@
         android:padding="13dp"
         android:background="@drawable/shape"
         android:layout_marginTop="10dp"
-        android:id="@+id/girisParola"
+        android:id="@+id/EditPassword"
         android:hint="@string/Parola" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot password?"
+        android:id="@+id/TextForgot"
+        android:layout_gravity="left"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"/>
+
 
 
     <LinearLayout
@@ -54,35 +66,42 @@
 
         <Button
             android:text="Mülteci"
-            android:id="@+id/girisMulteci"
+            android:id="@+id/ButtonMulteci"
             android:layout_width="150dp"
             android:layout_height="45dp"
             android:textColor="@color/white"
-            android:textAllCaps="true"
+            android:textAllCaps="false"
+            android:textSize="18sp"
             android:layout_marginTop="5dp"
             android:layout_marginRight="10dp"
             android:background="@drawable/btn"/>
 
         <Button
             android:text="Bağışcı"
-            android:id="@+id/girisBagisci"
+            android:id="@+id/ButtonBagisci"
             android:layout_width="150dp"
             android:layout_height="45dp"
             android:layout_marginTop="5dp"
             android:layout_marginLeft="10dp"
+            android:textSize="18sp"
+            android:textAllCaps="false"
             android:textColor="@color/white"
             android:background="@drawable/btn"/>
     </LinearLayout>
 
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="No account yet? Create one."
-        android:gravity="center"
+
+
+    <Button
+        android:text="Sign Up"
+        android:id="@+id/ButtonSignUp"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
         android:textSize="18sp"
-        android:textColor="@color/white"/>
-
-
+        android:textAllCaps="false"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:background="@drawable/btn"/>
 
 </LinearLayout>
