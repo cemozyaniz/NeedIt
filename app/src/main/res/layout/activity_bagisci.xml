@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< 22fe2728ca1572e14f2b7bf0548a8f86a2ad61bf
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+=======
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+>>>>>>> Bagisci Activity
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_bagisci"
     android:layout_width="match_parent"
