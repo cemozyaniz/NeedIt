@@ -27,8 +27,6 @@ public class LoginActivity extends AppCompatActivity {
         e_password=(EditText) findViewById(R.id.EditPassword);
         forgetPassword=(TextView) findViewById(R.id.TextForgot);
 
-
-
         multeci.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
