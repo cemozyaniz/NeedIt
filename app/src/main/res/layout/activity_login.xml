@@ -43,7 +43,7 @@
         android:background="@drawable/shape"
         android:layout_marginTop="10dp"
         android:id="@+id/EditPassword"
-        android:hint="@string/Parola" />
+        android:hint="Password" />
 
 
     <TextView

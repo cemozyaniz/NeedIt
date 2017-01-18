@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.okanaydin.needit">
+          package="com.example.okanaydin.needit">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -10,27 +12,22 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
         <activity android:name=".LoginActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-<<<<<<< 22fe2728ca1572e14f2b7bf0548a8f86a2ad61bf
-        <activity android:name=".Multeci"></activity>
-        <activity android:name=".Bagisci"></activity>
-=======
-        <activity android:name=".Multeci">
+        <activity android:name=".ForgetPassword">
         </activity>
-        <activity android:name=".Bagisci">
+        <activity android:name=".SignUp">
         </activity>
->>>>>>> Bagisci Activity
     </application>
 
 </manifest>
